@@ -1,0 +1,69 @@
+.firstsection {
+  //background-color: red;
+  background-image: url("../../../assets/bgc.png");
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  background-color: #F8F9FB;
+  margin: 0px 20px 0 20px;
+  border-radius: 10px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.headerlinks {
+  & > * + * {
+    margin-left: 30px;
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  &:hover {
+    color: #33A939;
+  }
+}
+.fsectionBottonDiv {
+  height: 217px;
+  margin: 0 20px 20px 20px;
+  background-color: #F8F9FB;
+  border-radius: 10px;
+  padding: 20px;
+}
+.txtBorder{
+  padding: 7.5px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  display: inline-block;
+  border-radius: 6px;
+  height: fit-content;
+}
+.flexbts {
+  display: flex;
+  justify-content: space-between;
+}
+.spanBig {
+  font-size: 40px;
+  line-height: 44px;
+}
+.spanGreen {
+  color: rgba(51, 169, 57, 1);
+}
+.flex{
+  display: flex;
+  font-size: 14px;
+  justify-content: right;
+  gap: 80px;
+  font-weight: 500;
+  line-height: 15.4px;
+  text-align: left;
+  & > * {
+    max-width: 471px;
+  }
+}

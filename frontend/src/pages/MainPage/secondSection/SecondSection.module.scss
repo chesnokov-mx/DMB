@@ -1,0 +1,49 @@
+.wrapperContainer {
+  margin: 120px 20px 90px 350px
+}
+.spanBig {
+   font-size: 40px;
+   line-height: 44px;
+ }
+.spanGreen {
+  color: rgba(51, 169, 57, 1);
+}
+.flexthree {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 73px;
+  & > * {
+    flex-grow: 1;
+    width: 100%;
+  }
+}
+.flexthreerightCont {
+  display: flex;
+  gap: 10px;
+  justify-content: right;
+}
+.txtBorder{
+  padding: 7.5px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  display: inline-block;
+  border-radius: 6px;
+  height: fit-content;
+}
+.gridTable {
+  display: grid;
+  grid-template-rows:  217px 217px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px
+}
+.gridCell {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.spB {
+  font-size: 62px;
+  line-height: 62px;
+}
